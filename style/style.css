@@ -1,0 +1,48 @@
+
+
+.box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.anime1{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 60px;
+    border-radius: 10px;
+}
+
+.anime1:hover{
+    transition: all 1s ease-in-out;
+    transform: translateY(-50px);
+}
+
+.anime2{
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+    margin: 60px;
+    border-radius: 10px;
+}
+
+.anime2:hover{
+    transition: all 1s ease-in-out;
+    transform: rotate(45deg);
+}
+.anime3{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 60px;
+    border-radius: 10px;
+}
+
+.anime3:hover{
+    transition: all 1s ease-in-out;
+    transform: scale(0.8);
+}
